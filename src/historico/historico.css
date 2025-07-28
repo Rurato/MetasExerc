@@ -1,0 +1,109 @@
+.historico-container {
+  padding: 20px;
+  background-color: #111;
+  color: white;
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+}
+
+.historico-container h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 24px;
+  color: #fff;
+}
+
+.recharts-cartesian-axis-tick-value {
+  fill: #ccc;
+  font-size: 12px;
+}
+
+.recharts-legend-item-text {
+  color: #fff !important;
+}
+
+.recharts-tooltip-wrapper {
+  background-color: #222;
+  border: 1px solid #444;
+  border-radius: 4px;
+}
+.historico-container {
+  background-color: #111;
+  color: white;
+  min-height: 100vh;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+.voltar {
+  margin-bottom: 20px;
+}
+
+.btn-voltar {
+  background-color: #333;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btn-voltar:hover {
+  background-color: #555;
+}
+
+.lista-registros {
+  margin-top: 40px;
+  padding: 10px;
+  background-color: #1a1a1a;
+  border-radius: 8px;
+}
+
+.lista-registros h2 {
+  margin-bottom: 10px;
+}
+
+.registro {
+  display: flex;
+  justify-content: space-between;
+  padding: 6px 0;
+  border-bottom: 1px solid #444;
+}
+
+.registro button {
+  background-color: #c0392b;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 4px 8px;
+  cursor: pointer;
+}
+
+.registro button:hover {
+  background-color: #e74c3c;
+}
+.filtros-historico {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 20px 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.filtros-historico label {
+  margin-right: 4px;
+}
+
+.filtros-historico input,
+.filtros-historico select {
+  padding: 6px;
+  border-radius: 6px;
+  border: 1px solid #444;
+  background-color: #1a1a1a;
+  color: white;
+}

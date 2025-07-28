@@ -1,0 +1,57 @@
+/* Estilos globais */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  background-color: #121212;
+  color: white;
+  font-family: sans-serif;
+}
+button {
+  background-color: #1f1f1f;
+  color: white;
+  border: 1px solid #444;
+  padding: 6px 12px;
+  margin: 4px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.1s;
+}
+
+button:hover {
+  background-color: #333;
+}
+
+button:active {
+  transform: scale(0.98);
+  background-color: #444;
+}
+button.excluir {
+  background-color: #8b0000;
+  color: white;
+}
+
+button.excluir:hover {
+  background-color: #a30000;
+}
+input {
+  background-color: #1f1f1f;
+  color: white;
+  border: 1px solid #444;
+  padding: 8px;
+  margin: 4px;
+  border-radius: 6px;
+  outline: none;
+  transition: border-color 0.2s, box-shadow 0.2s;
+  width: 200px;
+}
+
+input:focus {
+  border-color: #00bfff;
+  box-shadow: 0 0 4px #00bfff88;
+}
